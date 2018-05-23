@@ -1,8 +1,7 @@
 package com.example.identityimageview;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
@@ -57,7 +56,6 @@ public class MainActivity extends AppCompatActivity {
             case R.id.bt4:
                 //增加进度条，没按一次加10,以及改变的角度
                 identityImageView.setIsprogress(true);
-                identityImageView.setProgressColor(R.color.colorAccent);
 
                 identityImageView.setProgress(i += 10);
 

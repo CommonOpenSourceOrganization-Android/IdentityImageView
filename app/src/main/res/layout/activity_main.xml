@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/activity_main"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<RelativeLayout android:id="@+id/activity_main"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
 
     <LinearLayout
@@ -17,7 +17,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:onClick="click"
-            android:text="变换头像" />
+            android:text="变换头像"/>
 
 
         <Button
@@ -26,7 +26,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:onClick="click"
-            android:text="生成小图" />
+            android:text="生成小图"/>
 
         <Button
             android:id="@+id/bt2"
@@ -34,7 +34,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:onClick="click"
-            android:text="小图变小" />
+            android:text="小图变小"/>
 
         <Button
             android:id="@+id/bt6"
@@ -42,7 +42,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:onClick="click"
-            android:text="移动小图" />
+            android:text="移动小图"/>
 
         <Button
             android:id="@+id/bt3"
@@ -50,7 +50,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:onClick="click"
-            android:text="有圆边" />
+            android:text="有圆边"/>
 
         <Button
             android:id="@+id/bt4"
@@ -58,7 +58,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:onClick="click"
-            android:text="有进度条" />
+            android:text="有进度条"/>
 
 
     </LinearLayout>
@@ -66,10 +66,10 @@
 
     <com.exampleenen.ruedy.imagelib.widget.IdentityImageView
         android:id="@+id/iiv"
-        android:layout_width="300dp"
-        android:layout_height="300dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:background="@color/colorPrimary"
-        app:iciv_progress_collor="@color/colorPrimary"/>
+        app:iciv_border_color="#999"
+        app:iciv_border_width="3dp"/>
 </RelativeLayout>
